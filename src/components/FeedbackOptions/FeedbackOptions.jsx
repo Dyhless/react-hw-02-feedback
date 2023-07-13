@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { ButtonWrapper, Button } from './FeedbackOptions.styled';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <div>
+    <ButtonWrapper>
       {options.map(option => (
-        <button key={option} onClick={() => onLeaveFeedback(option)}>
+        <Button key={option} onClick={() => onLeaveFeedback(option)}>
           {option}
-        </button>
+        </Button>
       ))}
-    </div>
+    </ButtonWrapper>
   );
 };
 
