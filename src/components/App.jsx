@@ -11,6 +11,9 @@ export const App = () => {
         fontSize: 40,
         color: '#010101',
       }}
+      good={'0'}
+      neutral={'0'}
+      bad={'0'}
     />
   );
 };
