@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ButtonWrapper = styled.div`
   margin-bottom: 10px;
+  justify-content: center;
 `;
 
 export const Button = styled.button`
